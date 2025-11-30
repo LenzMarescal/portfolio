@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import pdf from '../../public/assets/cv.pdf';
+---
+
+<BaseLayout title="About | Leopold Marescal" description="page About Leopold Marescal">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="A propos"
+				tagline="Découvrez mon parcours et mes compétences"
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.png"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>J'ai 27 ans, et exercé plusieurs métiers dans ma vie. Ma formation initiale a été dans le domaine de la <span>projection de cinéma</span>, j'ai exercé ce métier durant 2 ans et demi dans un super <span>cinéma Arts et Essai</span>!</p>
+					<p>Ce métier étant de moins en moins pratiqué, j'ai exercé les métiers de Cariste, Préparateur de Commandes et d'autres métiers alimentaires.</p>
+					<p>Je me suis reconverti dans le domaine du numérique en 2022 avec l'école O'Clock, une formation en dévelopement lors de laquelle j'ai décidé de me spécialiser en <span>React.</span></p>
+					<p>
+						C'est lors de ce Titre Professionnel en <span>Développement Web</span> que je me suis passionné pour le côté esthétique des sites internet codés et les éléments graphiques de celui ci.
+					</p>
+					<p>
+						J'ai alors commencé 3 mois de formation en <span>conception UI</span> avec la <span>3W Academy</span> durant lesquels j'ai été initié à <span>Photoshop</span>, <span>Illustrator</span> et <span>l'UX Design</span>.
+						et me suis pris de passion pour cela.
+					</p>
+					<p>Je souhaite donc continuer vers une voie créative.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Caractère, intérêts</h2>
+				<div class="content">
+					<p>Je suis une personne enthousiaste, optimiste. J'aime créer et m'investis beaucoup lors de mon temps libre à apprendre sur divers logiciels de création de la <span>Suite Adobe</span>, <span>Figma</span>, <span>Blender</span>.</p>
+					
+					<p>Je crée aussi de manière manuelle, dessine, bricole, m'initie à la sculpture métallique et encore bien d'autres choses!</p>
+					<p>Sensible et empathique, j'aime aider les autres et ait été et suis bénévole dans des associations. Actuellement je fais de la <span>Médiation Numérique</span> auprès de personnes en situation de handicap à Saint-Omer.</p>
+					<p>J'aime aussi me balader, le vélo et passer du temps en nature, le cinéma et les jeux-vidéo.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">A propos du site</h2>
+				<div class="content">
+					<p>Ce site a été réalisé avec un template Astro avec des modifications de contenus, <span>Javascript</span>, <span>HTML</span>, <span>Markdown</span> et <span>CSS</span></p>
+					<p>La photo portrait a été modifiée sur <span>Photoshop</span> et l'illustration de cette page sur <span>Illustrator</span></p>
+				</div>
+			</section>
+			</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+    
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+    p {
+		line-height: 2.1rem;
+		margin-bottom: 1.5rem;
+	}
+	span {
+		color:rgb(255, 210, 189) ;
+	}
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

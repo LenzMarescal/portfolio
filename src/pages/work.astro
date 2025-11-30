@@ -1,0 +1,105 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import PortfolioPreview from "../components/PortfolioPreview.astro";
+import Hero from "../components/Hero.astro";
+import Grid from "../components/Grid.astro";
+
+
+import '../styles/work.scss';
+
+
+import { Debug } from "astro:components";
+
+//récupère collection de fichiers projets
+const projects = (await getCollection("work")).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+
+//filtre collection de fichiers projets
+const filterDeveloppement = projects.filter(
+	(project) => project.data.filtre === "dev");
+const filterDesign = projects.filter(
+	(project) => project.data.filtre === "design",
+);
+
+
+---
+
+
+<BaseLayout
+	title="Mes projets | Leopold Marescal"
+	description="Mes travaux récents"
+>
+	<!-- Wrap the component elements in our custom element “astro-xFilter”. -->
+	<span id="showState"></span>
+
+	
+<button id="isDev"><div id="designSide">Design</div><div id="devSide">Dev</div></button>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Mes projets"
+				tagline="Voici mes projets récents pour vous donner une idée du cours de mon apprentissage personnel ou durant mes 3 mois de formation avec la 3WAcademy."
+				align="start"
+			/>
+			<div id="dev">
+				<Grid variant="offset">
+					{
+						filterDeveloppement.map((project) => (
+							<li>
+								<PortfolioPreview project={project} />
+							</li>
+						))
+					}
+				</Grid>
+			</div>
+			<div id="design">
+				<Grid variant="offset">
+					{
+						filterDesign.map((project) => (
+							<li>
+								<PortfolioPreview project={project} />
+							</li>
+						))
+					}
+				</Grid>
+			</div>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<script>
+	const isDev = document.getElementById("isDev");
+	isDev.addEventListener("click", toggleFilters);
+
+	let isFiltered = false;
+	document.getElementById("dev").style.display = "block";
+	document.getElementById("design").style.display = "none";
+
+	function toggleFilters(e) {
+		e.preventDefault();
+		isFiltered = !isFiltered;
+
+		if (isFiltered) {
+			document.getElementById("dev").style.display = "none";
+			document.getElementById("design").style.display = "block";
+
+			document.getElementById("devSide").classList.add('otherSide');
+			document.getElementById("designSide").classList.add('otherSide');
+		} else {
+			document.getElementById("dev").style.display = "block";
+			document.getElementById("design").style.display = "none";
+
+			
+			document.getElementById("designSide").classList.remove('otherSide');
+			document.getElementById("devSide").classList.remove('otherSide');
+		}
+	}
+
+
+</script>

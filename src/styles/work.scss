@@ -1,0 +1,51 @@
+#isDev {
+    font-family: var(--font-brand);
+    color:  var(--gray-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px 10px 40px;
+    justify-self: center;
+    margin-bottom: 5%;
+    background-color: transparent;
+    line-height: 1.2;
+    border: 1px solid var(--accent-subtle-overlay);
+    font-size: var(--text-base);
+    font-weight: 500;
+    position: relative;
+    margin-inline: auto;
+    border-radius: 40px;
+    &:hover {
+        background-color: var(--accent-subtle-overlay);
+     }
+     
+}
+
+
+#devSide {
+margin-left: 5px;
+color:  var(--gray-200);
+&.otherSide {
+    color:  var(--gray-700);
+    &:hover{
+        color:  var(--gray-400);
+        }
+}
+
+}
+
+#designSide {
+margin-right: 5px;
+color:  var(--gray-700);
+&.otherSide {
+    color:  var(--gray-200);
+    &:hover{
+        color:  var(--gray-200);
+        }
+}
+&:hover{
+    color:  var(--gray-500);
+    }
+    
+}
+
