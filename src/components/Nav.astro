@@ -12,7 +12,7 @@ const textLinks: { label: string; href: string }[] = [
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-{ label: 'CV', href:'https://www.figma.com/design/fahWLGPoMXD4b9qmlIhgAn/cv?node-id=0-1&t=sLCvmRKfr7l3F4ZB-1', icon:'curriculum'},
+{ label: 'CV', href:'https://www.figma.com/design/fahWLGPoMXD4b9qmlIhgAn/cv?node-id=0-1&t=sLCvmRKfr7l3F4ZB-1', icon:'curriculum',},
 	{ label: 'Linkedin', href: 'https://www.linkedin.com/in/leopold-marescal/', icon: 'linkedin-logo' }
 ];
 ---
@@ -264,7 +264,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 	.social:hover,
 	.social:focus {
-		color: var(--accent-text-over);
+		color: var(--accent-focus);
 	}
 
 	.theme-toggle {

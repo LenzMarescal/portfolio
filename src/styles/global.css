@@ -18,11 +18,11 @@
 
 	--accent-light: #00b6a4;
 	--accent-regular: #00b6a4;
-	--accent-dark: #3a2a5c;
+	--accent-dark: #00b6a4;
 	--accent-overlay: #00b6a4;
 	--accent-subtle-overlay: var(--accent-overlay);
 	--accent-text-over: var(--gray-999);
-
+    --accent-focus: #136e67;
 	--link-color: var(--accent-regular);
 
 	/* Gradients */
@@ -94,6 +94,7 @@
 	--accent-overlay: #0eb99f73;
 	--accent-subtle-overlay: #0eb99f4d;
 	--accent-text-over: var(--gray-0);
+	--accent-focus: #2bffdf;
 
 	--link-color: var(--accent-dark);
 
