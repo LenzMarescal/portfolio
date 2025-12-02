@@ -1,5 +1,5 @@
 ---
-title: SoundPlayer - Figma - DailyUi
+title: SoundPlayer - Figma - DailyUi - 2025
 publishDate: 2024-04-02 00:20:00
 img: /assets/soundplayer.png
 img_alt: prototypes représentants un lecteur audio sur un smartphone et sur un montre connectée

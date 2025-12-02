@@ -32,6 +32,12 @@ const { data, slug } = Astro.props.project;
 
 	.card:hover {
 		box-shadow: var(--shadow-md);
+		transform: scale(1.01);
+		height: 100%;
+		transition: 0.3s ease-in;
+		position: absolute;
+		z-index: 10;
+		min-height: 11rem;
 	}
 
 	.title {

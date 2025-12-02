@@ -39,8 +39,13 @@ const filterDesign = projects.filter(
 
 	
 <!--- <button id="isDev"><div id="designSide">Design</div><div id="devSide">Dev</div></button>-->
-<button id="isDev"><div id="designSide">Design</div></button>
-<button id="isDev"><div id="devSide">Dev</div></button>
+<div id="button-container">
+	
+    <button id="isDesign" data-filter="design"><div id="designSide">Design</div></button>
+	<button id="isAll" data-filter="all"><div id="AllSide">All</div></button>
+    <button id="isDev" data-filter="dev"><div id="devSide">Dev</div></button>
+</div>
+
 	<div class="stack gap-20">
 		<main class="wrapper stack gap-8">
 			<Hero
@@ -70,38 +75,64 @@ const filterDesign = projects.filter(
 					}
 				</Grid>
 			</div>
+				<div id="All">
+				<Grid variant="offset">
+					{
+						filterDesign.map((project) => (
+							<li>
+								<PortfolioPreview project={project} />
+							</li>
+						))
+					}
+				</Grid>
+			</div>
 		</main>
 		<ContactCTA />
 	</div>
 </BaseLayout>
 
 <script>
-	const isDev = document.getElementById("isDev");
-	isDev.addEventListener("click", toggleFilters);
+	// Les sections disponibles
+	const sections = ["design", "dev", "All"];
+	const filterButtons = document.querySelectorAll("button[data-filter]");
 
-	let isFiltered = false;
-	document.getElementById("dev").style.display = "block";
-	document.getElementById("design").style.display = "none";
 
-	function toggleFilters(e) {
-		e.preventDefault();
-		isFiltered = !isFiltered;
+	// Ajouter un listener à chaque bouton
+	document.querySelectorAll("button[data-filter]").forEach(button => {
+		button.addEventListener("click", () => {
+			setActiveButton(button);
+			applyFilter(button.dataset.filter);
+		});
+	});
 
-		if (isFiltered) {
-			document.getElementById("dev").style.display = "none";
-			document.getElementById("design").style.display = "block";
+	// Fonction qui applique le filtre
+	function applyFilter(filter) {
+		sections.forEach(section => {
+			const element = document.getElementById(section);
 
-			document.getElementById("devSide").classList.add('otherSide');
-			document.getElementById("designSide").classList.add('otherSide');
-		} else {
-			document.getElementById("dev").style.display = "block";
-			document.getElementById("design").style.display = "none";
-
-			
-			document.getElementById("designSide").classList.remove('otherSide');
-			document.getElementById("devSide").classList.remove('otherSide');
-		}
+			if (filter === "all") {
+				// Si "all", tout afficher
+				element.style.display = "block";
+			} else {
+				// Sinon, n'afficher que la section choisie
+				element.style.display = (section === filter) ? "block" : "none";
+			}
+		});
 	}
 
 
+    // 🎨 Fonction qui gère la classe "active"
+	function setActiveButton(activeButton) {
+		filterButtons.forEach(btn => btn.classList.remove("active"));
+		activeButton.classList.add("active");
+	}
+
+
+
+
+	// Filtre par défaut
+		// ⭐ INITIALISATION : Design par défaut
+	const defaultButton = document.querySelector('button[data-filter="design"]');
+	setActiveButton(defaultButton);
+	applyFilter("design");
 </script>

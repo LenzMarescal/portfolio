@@ -1,5 +1,5 @@
 ---
-title: Candy Game JS - Code - Exercice personnel
+title: Candy Game JS - Code - Exercice personnel - 2025
 publishDate: 2024-07-21 21:21:00
 img: /assets/candyGame.png
 img_alt: une page web qui represente un jeu vidéo de type Candy Crush entouré de divers liens de contact

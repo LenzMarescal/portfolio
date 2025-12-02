@@ -1,5 +1,5 @@
 ---
-title: Calculatrice - Illustrator - 3W Academy
+title: Calculatrice - Illustrator - 3W Academy - 2024
 publishDate: 2020-03-02 00:00:00
 img: /assets/calculatrice.jpg
 img_alt: illlustration d'une calculatrice

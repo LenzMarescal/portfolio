@@ -1,5 +1,5 @@
 ---
-title: Boussole - Illustrator - 3W Academy
+title: Boussole - Illustrator - 3W Academy - 2024
 publishDate: 2023-04-02 00:15:00
 img: /assets/boussolle.jpg
 img_alt: illustration d'une boussole métalique sur fond bleu

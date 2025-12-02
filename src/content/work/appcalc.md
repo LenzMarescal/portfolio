@@ -1,5 +1,5 @@
 ---
-title: Application de calcul - Figma - DailyUI
+title: Application de calcul - Figma - DailyUI - 2025
 publishDate: 2024-04-02 00:14:00
 img: /assets/calcul.png
 img_alt: image d'une application mobile d'une calculatrice scientifique de couleur violette.

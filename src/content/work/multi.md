@@ -1,5 +1,5 @@
 ---
-title: Multiprise - Illustrator - 3W Academy
+title: Multiprise - Illustrator - 3W Academy - 2024
 publishDate: 2020-03-02 00:00:00
 img: /assets/multiprise.svg
 img_alt: illustration d'une multiprise blanche avec un bouton on/off

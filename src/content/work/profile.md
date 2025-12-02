@@ -1,5 +1,5 @@
 ---
-title: Profile page - Figma - DailyUI
+title: Profile page - Figma - DailyUI - 2025
 publishDate: 2024-04-02 00:17:00
 img: /assets/profile.png
 img_alt: image représentant une page internet, composée d'une page d'un profile public et diverses photos 

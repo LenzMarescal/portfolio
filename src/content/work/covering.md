@@ -1,15 +1,15 @@
 ---
-title: O'Dice & Dragon - TP Dev web - 2022
-publishDate: 2020-03-02 00:00:00
-img: /assets/ODice.jpg
+title: Coverings automobile - Espace Centre - 11/2025
+publishDate: 2025-11-20 00:00:00
+img: /assets/bus.jpg
 img_alt: illustration d'une multiprise blanche avec un bouton on/off
 description: |
   Site de jeu de rôle en ligne réalisé en groupe de 4 dans le cadre de la présentation au Titre Professionnel Développeur Web et Web mobile. Je me suis occupé de la partie Front-end avec deux autres personnes et principalement de l'intégration.
 tags:
   - Developpement web
   - Front-End - Intégration
-  - Titre Professionnel
-  - "2022"
+  - Titre Professionel
+  - Novembre 2025
 filtre: 
   dev
 ---
