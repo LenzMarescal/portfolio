@@ -2,36 +2,40 @@
 title: Print - Flyer Comptoir de l'Îlot - 2025
 publishDate: 2025-10-02 00:00:00
 img: /assets/flyer-comptoir.jpg
-img_alt: illustration d'une multiprise blanche avec un bouton on/off
+img_alt: Flyer de présentation d'une boutique "Le comptoir de l'Îlot"
 description: |
-  Site de jeu de rôle en ligne réalisé en groupe de 4 dans le cadre de la présentation au Titre Professionnel Développeur Web et Web mobile. Je me suis occupé de la partie Front-end avec deux autres personnes et principalement de l'intégration.
+  Dans le cadre de mes missions en communication visuelle, j’ai conçu un flyer print pour le Comptoir de l’Îlot, une boutique mutualisée dédiée à l’Économie Sociale et Solidaire située au cœur de Calais.
 tags:
   - Graphisme
   - Print
   - InDesign
+  - Prise de photographie & retouche
   - Octobre 2025
 filtre: 
   design
 ---
+L’objectif était de moderniser l’image de la boutique et de valoriser ses artisans, producteurs locaux et services solidaires.
 
+J’ai réalisé l’ensemble du visuel en InDesign, en intégrant une direction artistique dynamique et colorée pour mettre en avant :
 
-O’Dice & Dragons est un jeu de rôle en ligne au tour par tour
-accessible tant aux débutants qu’aux adeptes de jeux de rôles,
-permettant aux joueurs de jouer de manière asynchrone et offrant
-une flexibilité que les rencontres physiques ne permettent pas.
-Il se joue au tour par tour et est composé de plusieurs joueurs et
-d’un maître du jeu.
+le positionnement Local & Solidaire ;
 
-Mon travail a été porté sur le visuel du site, maquettage, intégration et du code en React Js et Scss.
+les produits et créations artisanales ;
 
-#### Technologies utilisées
-##### Globales 
-Git, Bash.
-##### Front 
-HTML & CSS
-Fomantic UI, Framer-motion, Sass.
-JavaScript
-Axios, React (Create React App), React Router v6
-##### Back 
-Symfony 5.4, Doctrine, Twig, MySQL, Identification JWT Token,
-Framework CSS Bootstrap 5.2.3.
+la convivialité et l’identité chaleureuse du lieu.
+
+Le travail a inclus :
+
+Prise de vue, retouche et sélection photo pour illustrer l’intérieur du magasin ;
+
+Mise en page professionnelle avec hiérarchisation claire des informations ;
+
+Création graphique d’encarts colorés et de dégradés pour attirer l’œil ;
+
+Intégration de QR codes et des réseaux sociaux pour renforcer l’interaction avec le public ;
+
+Travail sur l'accessibilité visuelle grâce à des contrastes lisibles et une structure compréhensible.
+
+Ce flyer est destiné à être diffusé en boutique, lors d’événements et dans divers points de passage afin d’augmenter la visibilité du Comptoir de l’Îlot et de ses créateurs.
+
+<img src="/assets/flyer-comptoir2.jpg" alt="Flyer Comptoir de l'Îlot" width="600" />

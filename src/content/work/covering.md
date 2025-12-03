@@ -4,34 +4,25 @@ publishDate: 2025-11-20 00:00:00
 img: /assets/bus.jpg
 img_alt: illustration d'une multiprise blanche avec un bouton on/off
 description: |
-  Site de jeu de rôle en ligne réalisé en groupe de 4 dans le cadre de la présentation au Titre Professionnel Développeur Web et Web mobile. Je me suis occupé de la partie Front-end avec deux autres personnes et principalement de l'intégration.
+ Dans le cadre d’une mission de communication visuelle pour l’Espace Centre, j’ai réalisé la maquette complète du covering d’un véhicule utilitaire, destinée à l’impression et à la pose de stickers grand format.
 tags:
-  - Developpement web
-  - Front-End - Intégration
-  - Titre Professionel
+  - Maquette
+  - Photoshop
+  - ADLC
   - Novembre 2025
 filtre: 
-  dev
+  design
 ---
+L’objectif du projet était de concevoir un habillage visuel attractif, moderne et facilement identifiable pour le Ludobus, un service itinérant dédié au jeu et à l’animation. Le design devait refléter l’univers ludique tout en restant cohérent avec l’identité graphique existante.
 
+Mon travail a compris :
 
-O’Dice & Dragons est un jeu de rôle en ligne au tour par tour
-accessible tant aux débutants qu’aux adeptes de jeux de rôles,
-permettant aux joueurs de jouer de manière asynchrone et offrant
-une flexibilité que les rencontres physiques ne permettent pas.
-Il se joue au tour par tour et est composé de plusieurs joueurs et
-d’un maître du jeu.
+Création de la maquette sur Photoshop, en prenant en compte les contraintes techniques liées au covering (courbes du véhicule, zones sensibles, marges de sécurité, proportions) ;
 
-Mon travail a été porté sur le visuel du site, maquettage, intégration et du code en React Js et Scss.
+Intégration et composition graphique d’éléments visuels tels que illustrations, pictogrammes, jeux, motifs colorés… pour évoquer l’idée de mobilité et de convivialité ;
 
-#### Technologies utilisées
-##### Globales 
-Git, Bash.
-##### Front 
-HTML & CSS
-Fomantic UI, Framer-motion, Sass.
-JavaScript
-Axios, React (Create React App), React Router v6
-##### Back 
-Symfony 5.4, Doctrine, Twig, MySQL, Identification JWT Token,
-Framework CSS Bootstrap 5.2.3.
+Adaptation du design sur plusieurs faces du véhicule (côtés, arrière, capot) avec cohérence visuelle et lisibilité ;
+
+Préparation des fichiers prêts pour l’impression selon les normes des ateliers de fabrication (résolution, traits de coupe, zones d’impression, calques dédiés).
+
+Le résultat est un covering dynamique, coloré et professionnel, pensé à la fois pour attirer l’attention du public et pour représenter clairement la mission du Ludobus sur le terrain.
