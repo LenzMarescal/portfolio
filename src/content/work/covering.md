@@ -15,14 +15,16 @@ filtre:
 ---
 L’objectif du projet était de concevoir un habillage visuel attractif, moderne et facilement identifiable pour le Ludobus, un service itinérant dédié au jeu et à l’animation. Le design devait refléter l’univers ludique tout en restant cohérent avec l’identité graphique existante.
 
-Mon travail a compris :
+Mon travail, itéré plusieurs fois après apréciation du client a compris :
 
 Création de la maquette sur Photoshop, en prenant en compte les contraintes techniques liées au covering (courbes du véhicule, zones sensibles, marges de sécurité, proportions) ;
 
-Intégration et composition graphique d’éléments visuels tels que illustrations, pictogrammes, jeux, motifs colorés… pour évoquer l’idée de mobilité et de convivialité ;
+Intégration et composition graphique de certains éléments visuels tels que les courbes en pointillées qui évoquent le dynamisme ou encore des bullmes d'informations utiles: adresse et numéro de téléphone ;
 
 Adaptation du design sur plusieurs faces du véhicule (côtés, arrière, capot) avec cohérence visuelle et lisibilité ;
 
-Préparation des fichiers prêts pour l’impression selon les normes des ateliers de fabrication (résolution, traits de coupe, zones d’impression, calques dédiés).
+Vectorisation de certains logos partenaires.
+
+Préparation des fichiers prêts pour l’impression selon les normes des ateliers de fabrication (résolution, calques dédiés), préparation d'un PDF de présentation et de planches d'assets.
 
 Le résultat est un covering dynamique, coloré et professionnel, pensé à la fois pour attirer l’attention du public et pour représenter clairement la mission du Ludobus sur le terrain.
