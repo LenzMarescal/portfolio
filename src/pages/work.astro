@@ -53,17 +53,7 @@ const filterDesign = projects.filter(
 				tagline="Voici mes projets récents pour vous donner une idée du cours de mon apprentissage personnel ou durant mes 3 mois de formation avec la 3WAcademy."
 				align="start"
 			/>
-			<div id="dev">
-				<Grid variant="offset">
-					{
-						filterDeveloppement.map((project) => (
-							<li>
-								<PortfolioPreview project={project} />
-							</li>
-						))
-					}
-				</Grid>
-			</div>
+
 			<div id="design">
 				<Grid variant="offset">
 					{
@@ -75,15 +65,20 @@ const filterDesign = projects.filter(
 					}
 				</Grid>
 			</div>
-				<div id="All">
+			<div id="dev">
 				<Grid variant="offset">
 					{
-						filterDesign.map((project) => (
+						filterDeveloppement.map((project) => (
 							<li>
 								<PortfolioPreview project={project} />
 							</li>
 						))
 					}
+				</Grid>
+			</div>
+				<div id="All">
+				<Grid variant="offset">
+				
 				</Grid>
 			</div>
 		</main>
