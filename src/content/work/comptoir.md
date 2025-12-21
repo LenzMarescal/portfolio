@@ -9,7 +9,7 @@ tags:
   - Graphisme
   - Print
   - InDesign
-  - Prise de photographie & retouche
+  - Prise de photographie & retouche Photoshop
   - Octobre 2025
 filtre: 
   design
