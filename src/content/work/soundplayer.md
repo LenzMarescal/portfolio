@@ -20,4 +20,4 @@ L'application pouvait être sur n'importe quel support mais j'avais envie d'essa
 L'application a été faite sur Figma , toutes les icônes ont été réalisées sur Illustrator et l'IA DALL·E m'a servi à illustrer ce qui pourrait être un album.
 
 Je me suis inspiré de plusieurs application différentes. 
-Les boutons des fonctionnalités sur l'Apple sont à scroller pour avoir accès à plus de fonctionnalités que ce qu'imposerait la taille l'écran.
+Les boutons des fonctionnalités sur l'Apple Watch sont à scroller pour avoir accès à plus de fonctionnalités que ce qu'imposerait la taille l'écran.
