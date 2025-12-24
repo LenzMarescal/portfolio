@@ -41,6 +41,10 @@ Proposition au client de 4 concepts graphiques pour la première de couverture �
 
 Proposition de 4 axes graphiques pour les mises en pages et visuels intérieurs. Proposition d'axes graphiques pour l'agenda annuel.
 
+<img src="/assets/fermascope22.jpg"/>
+
+<img src="/assets/fermascope25.jpg"/>
+
 
 Mise en page de la brochure sous InDesign : hiérarchie des informations, structuration par rubriques (familles, scolaires, publics spécifiques, événements saisonniers).
 ​
