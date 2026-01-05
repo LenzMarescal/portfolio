@@ -23,6 +23,11 @@ Mon travail, itéré plusieurs fois après apréciation du client a compris :
 - La vectorisation de certains logos partenaires ;
 - La préparation des fichiers prêts pour l’impression selon les normes des ateliers de fabrication (résolution, calques dédiés), ainsi que la préparation d’un PDF de présentation et de planches d’assets.
 
-Le résultat est un covering dynamique, coloré et professionnel, pensé à la fois pour attirer l’attention du public et pour représenter clairement la mission du Ludobus sur le terrain.
+Le résultat, ci-dessus, en image de couverture, est un covering dynamique, coloré, pensé à la fois pour attirer l’attention du public et pour représenter clairement la mission du Ludobus sur le terrain.
 
-<img src="/assets/bus.jpg">
+Voici les maquettes faites sur Photoshop:
+
+<img src="/assets/GAUCHE.jpg">
+<img src="/assets/ARRIERE.jpg">
+<img src="/assets/DROIT.jpg">
+<img src="/assets/AVANT.jpg">

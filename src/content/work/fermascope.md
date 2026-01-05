@@ -58,4 +58,10 @@ Création d’éléments illustratifs.
 #### Statut
 
 Projet en cours de finalisation pour une parution prévue pour février 2026, en version imprimée distribuée sur site et à l'extérieur mais aussi téléchargeable en ligne.
-​
+
+#### Autres versions
+
+Voici d'autres propositions de pages intérieures qui n'ont pas été retenues:
+
+​<img src="/assets/pages-essai2.jpg">
+<img src="/assets/pages-essai1.jpg">
