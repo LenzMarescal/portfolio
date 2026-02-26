@@ -9,7 +9,7 @@
 
 #isDev, #isDesign, #isAll {
     font-family: var(--font-brand);
-    color:  var(--gray-200);
+    color:  var(--gray-400);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,7 @@
      }
      &.active{
         background-color: var(--accent-subtle-overlay);
+        color: white;
         transition: 0.2s ease;
      }
      

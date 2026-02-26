@@ -8,126 +8,125 @@ import PortfolioPreview from "../components/PortfolioPreview.astro";
 import Hero from "../components/Hero.astro";
 import Grid from "../components/Grid.astro";
 
-
-import '../styles/work.scss';
-
+import "../styles/work.scss";
 
 import { Debug } from "astro:components";
 
 //récupère collection de fichiers projets
 const projects = (await getCollection("work")).sort(
-	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
 
 //filtre collection de fichiers projets
 const filterDeveloppement = projects.filter(
-	(project) => project.data.filtre === "dev");
-const filterDesign = projects.filter(
-	(project) => project.data.filtre === "design",
+  (project) => project.data.filtre === "dev"
 );
-
-
+const filterDesign = projects.filter(
+  (project) => project.data.filtre === "design"
+);
 ---
 
-
 <BaseLayout
-	title="Mes projets | Leopold Marescal"
-	description="Mes travaux récents"
+  title="Mes projets | Leopold Marescal"
+  description="Mes travaux récents"
 >
-	<!-- Wrap the component elements in our custom element “astro-xFilter”. -->
-	<span id="showState"></span>
+  <!-- Wrap the component elements in our custom element “astro-xFilter”. -->
+  <span id="showState"></span>
 
-	
-<!--- <button id="isDev"><div id="designSide">Design</div><div id="devSide">Dev</div></button>-->
-<div id="button-container">
-	
-    <button id="isDesign" data-filter="design"><div id="designSide">Design</div></button>
-	<button id="isAll" data-filter="all"><div id="AllSide">All</div></button>
+  <!--- <button id="isDev"><div id="designSide">Design</div><div id="devSide">Dev</div></button>-->
+  <div id="button-container">
+    <button id="isDesign" data-filter="design"
+      ><div id="designSide">Design</div></button
+    >
+    <button id="isAll" data-filter="all"><div id="AllSide">All</div></button>
     <button id="isDev" data-filter="dev"><div id="devSide">Dev</div></button>
-</div>
+  </div>
 
-	<div class="stack gap-20">
-		<main class="wrapper stack gap-8">
-			<Hero
-				title="Mes projets"
-				tagline=""
-				align="start"
-			/>
+  <div class="stack gap-20">
+    <main class="wrapper stack gap-8">
+      <Hero title="Mes projets" tagline="" align="start" />
 
-			<div id="design">
-				<Grid variant="offset">
-					{
-						filterDesign.map((project) => (
-							<li>
-								<PortfolioPreview project={project} />
-							</li>
-						))
-					}
-				</Grid>
-			</div>
-			<div id="dev">
-				<Grid variant="offset">
-					{
-						filterDeveloppement.map((project) => (
-							<li>
-								<PortfolioPreview project={project} />
-							</li>
-						))
-					}
-				</Grid>
-			</div>
-				<div id="All">
-				<Grid variant="offset">
-				
-				</Grid>
-			</div>
-		</main>
-		<ContactCTA />
-	</div>
+      <div id="design">
+        <Grid variant="offset">
+          {
+            filterDesign.map((project) => (
+              <li>
+                <PortfolioPreview project={project} />
+              </li>
+            ))
+          }
+        </Grid>
+      </div>
+      <div id="dev">
+        <Grid variant="offset">
+          {
+            filterDeveloppement.map((project) => (
+              <li>
+                <PortfolioPreview project={project} />
+              </li>
+            ))
+          }
+        </Grid>
+      </div>
+      <div id="All">
+        <Grid variant="offset" />
+      </div>
+    </main>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <script>
-	// Les sections disponibles
-	const sections = ["design", "dev", "All"];
-	const filterButtons = document.querySelectorAll("button[data-filter]");
+  // Les sections disponibles
+  const sections = ["design", "dev", "all"];
+  const filterButtons = document.querySelectorAll<HTMLButtonElement>(
+    "button[data-filter]"
+  );
 
+  // Ajouter un listener à chaque bouton
+ document.querySelectorAll("button[data-filter]").forEach((btn) => {
+	const button = btn as HTMLButtonElement;
 
-	// Ajouter un listener à chaque bouton
-	document.querySelectorAll("button[data-filter]").forEach(button => {
-		button.addEventListener("click", () => {
-			setActiveButton(button);
-			applyFilter(button.dataset.filter);
-		});
+	button.addEventListener("click", () => {
+		setActiveButton(button);
+		applyFilter(button.dataset.filter ?? "all");
 	});
+});
 
-	// Fonction qui applique le filtre
-	function applyFilter(filter) {
-		sections.forEach(section => {
-			const element = document.getElementById(section);
-
-			if (filter === "all") {
-				// Si "all", tout afficher
-				element.style.display = "block";
-			} else {
-				// Sinon, n'afficher que la section choisie
-				element.style.display = (section === filter) ? "block" : "none";
+  // Fonction qui applique le filtre
+  function applyFilter(filter: string) {
+    sections.forEach((section) => {
+      const element = document.getElementById(section);
+		if (!element) {
+				return;
 			}
-		});
-	}
 
+      if (filter === "all") {
+        // Si "all", tout afficher
+        element.style.display = "block";
+      } else {
+        // Sinon, n'afficher que la section choisie
+        element.style.display = section === filter ? "block" : "none";
+      }
+    });
+  }
 
-    // 🎨 Fonction qui gère la classe "active"
-	function setActiveButton(activeButton) {
-		filterButtons.forEach(btn => btn.classList.remove("active"));
+  // 🎨 Fonction qui gère la classe "active"
+
+	function setActiveButton(activeButton: HTMLButtonElement) {
+		filterButtons.forEach((btn: HTMLButtonElement) =>
+			btn.classList.remove("active")
+		);
 		activeButton.classList.add("active");
 	}
 
+  // Filtre par défaut
+  // ⭐ INITIALISATION : Design par défaut
+	const defaultButton: HTMLButtonElement | null =
+		document.querySelector('button[data-filter="design"]');
 
-
-
-	// Filtre par défaut
-		// ⭐ INITIALISATION : Design par défaut
-	const defaultButton = document.querySelector('button[data-filter="design"]');
-	setActiveButton(defaultButton);
-	applyFilter("design");
+	if (defaultButton !== null) {
+		setActiveButton(defaultButton);
+		applyFilter("design");
+	}
 </script>
