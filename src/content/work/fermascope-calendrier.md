@@ -1,7 +1,7 @@
 ---
 title: En cours - Brochure, calendrier - Les Animaliens - 02/2026
 publishDate: 2026-02-22 00:00:00
-img: /assets/Calendrier51.jpg
+img: /assets/fermascopecal.jpg
 img_alt: Page de calendrier avec plusieurs photos d'animaux
 description: |
   (En cours), Réalisation d'une brochure annuelle pour "Les Animaliens", une ferme pédagogique dans le centre de Calais. 

@@ -1,8 +1,8 @@
 ---
 title: En cours - Brochure, pages intérieures - Les Animaliens - 02/2026
 publishDate: 2026-12-26 00:00:00
-img: /assets/fermascope-pres.png
-img_alt: Page de brochure, le fermascope 2026 représentant la catégorie "Anniversaire"
+img: /assets/presfer.jpg
+img_alt: Quatre pages de brochure, le fermascope 2026 représentant la couverture, la catégorie "Anniversaire" et d'autres pages.
 description: |
   (En cours), Réalisation d'une brochure annuelle pour "Les Animaliens", une ferme pédagogique dans le centre de Calais. 
   Suite à ma précedente publication, centrée plutôt sur la première de couverture, ici je présente le travail sur les pages intérieures.
@@ -29,13 +29,13 @@ Avancement des pages intérieures du Fermascope 2026, avec retouches photos, mis
 
 <img src="/assets/cornes.jpg"/>
 
-<img src="/assets/fermascope222.jpg"/>
+<img src="/assets/fermascope22.jpg"/>
 
 <img src="/assets/fermascope23.jpg"/>
 
 <img src="/assets/fermascope24.jpg"/>
 
-<img src="/assets/fermascope255.jpg"/>
+<img src="/assets/fermascope25.jpg"/>
 
 <img src="/assets/fermascope26.jpg"/>
 
@@ -44,10 +44,6 @@ Avancement des pages intérieures du Fermascope 2026, avec retouches photos, mis
 <img src="/assets/fermascope28.jpg"/>
 
 <img src="/assets/fermascope29.jpg"/>
-
-<img src="/assets/fermascope210.jpg"/>
-
-<img src="/assets/fermascope211.jpg"/>
 
 Mise en page de la brochure sur InDesign.
 ​
