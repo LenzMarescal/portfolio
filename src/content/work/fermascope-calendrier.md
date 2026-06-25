@@ -20,7 +20,6 @@ Création de la brochure annuelle Fermascope 2026 pour l’association Les Anima
 
 Le document présente sur une année l’ensemble des ateliers, événements et animations destinés aux familles, , aux écoles et autres publics.
 
-
 #### Réalisations
 
 Avancement des pages de calendrier et des compositions photos.

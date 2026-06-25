@@ -1,6 +1,6 @@
 ---
 title: En cours - Brochure, pages intérieures - Les Animaliens - 02/2026
-publishDate: 2026-12-26 00:00:00
+publishDate: 2026-05-26 00:00:00
 img: /assets/presfer.jpg
 img_alt: Quatre pages de brochure, le fermascope 2026 représentant la couverture, la catégorie "Anniversaire" et d'autres pages.
 description: |
