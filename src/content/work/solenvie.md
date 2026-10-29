@@ -1,5 +1,5 @@
 ---
-title: En cours - Maquette UI - Figma - Environnement et solidarité - 02/2026
+title: En cours - maquette UI - site pour Environnement et Solidarité - 02/2026
 publishDate: 2026-02-20 00:00:00
 img: /assets/solenvie.png
 img_alt: Pages de brochure avec un sommaire et un Edito pour le centre Cousteau à Marck.

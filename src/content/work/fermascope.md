@@ -1,5 +1,5 @@
 ---
-title: En cours - Brochure annuelle - Les animaliens - 12/2025
+title: En cours - brochure annuelle pour Les Animaliens - 12/2025
 publishDate: 2025-12-23 00:00:00
 img: /assets/fermascope-couv.jpg
 img_alt: Présentation de plusieurs propositions de couvertures autour d'animaux de la ferme

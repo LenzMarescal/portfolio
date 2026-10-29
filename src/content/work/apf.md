@@ -1,5 +1,5 @@
 ---
-title: Print - Bénévolat - APF - 08/2025
+title: Print - bénévolat pour l'association APF - 08/2025
 publishDate: 2025-08-02 00:00:00
 img: /assets/apf.jpg
 img_alt: Affiche pour des évènements associatifs avec l'APF, des ateliers sur l'accessibilité 

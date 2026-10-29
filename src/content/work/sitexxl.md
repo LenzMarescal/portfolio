@@ -1,5 +1,5 @@
 ---
-title: Rédaction d'un article pour le site Calais XXL - 06/2026
+title: Rédaction d'un article pour le site de Calais XXL - 06/2026
 publishDate: 2026-06-23 00:00:00
 img: /assets/siteXXL.png
 img_alt: capture d'écran du site de Calais XXL affichant un article nommé Visiter Calais sans voiture transports et mobilité

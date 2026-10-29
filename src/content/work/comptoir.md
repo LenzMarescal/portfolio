@@ -1,5 +1,5 @@
 ---
-title: Print - Flyer Comptoir de l'Îlot - 2025
+title: Print - flyer pour le Comptoir de l'Îlot - 2025
 publishDate: 2025-10-02 00:00:00
 img: /assets/flyer-comptoir.jpg
 img_alt: Flyer de présentation d'une boutique "Le comptoir de l'Îlot"

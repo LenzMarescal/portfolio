@@ -7,9 +7,9 @@
 
 
 
-#isDev, #isDesign, #isAll {
+#isDev, #isDesign, #isAll, #isAnimation {
     font-family: var(--font-brand);
-    color:  var(--gray-400);
+    color:  #7724d6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,17 +18,18 @@
     margin-bottom: 5%;
     background-color: transparent;
     line-height: 1.2;
-    border: 1px solid var(--accent-subtle-overlay);
+    border: 2px solid #7724d6;
     font-size: var(--text-base);
     font-weight: 500;
     position: relative;
     margin-inline: auto;
     border-radius: 40px;
     &:hover {
-        background-color: var(--accent-subtle-overlay);
+        background-color: #7724d6;
+        color: white;
      }
      &.active{
-        background-color: var(--accent-subtle-overlay);
+        background-color: #7724d6;
         color: white;
         transition: 0.2s ease;
      }

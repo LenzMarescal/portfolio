@@ -1,5 +1,5 @@
 ---
-title: En cours - Brochure trimestrielle - Centre Cousteau à Marck - 02/2026
+title: En cours - brochure trimestrielle pour le Centre Cousteau à Marck - 02/2026
 publishDate: 2026-02-22 00:00:00
 img: /assets/edito.jpg
 img_alt: Pages de brochure avec un sommaire et un Edito pour le centre Cousteau à Marck.

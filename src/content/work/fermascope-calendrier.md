@@ -1,5 +1,5 @@
 ---
-title: En cours - Brochure, calendrier - Les Animaliens - 02/2026
+title: En cours - brochure, calendrier pour Les Animaliens - 02/2026
 publishDate: 2026-02-22 00:00:00
 img: /assets/fermascopecal.jpg
 img_alt: Page de calendrier avec plusieurs photos d'animaux

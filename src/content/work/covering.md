@@ -1,5 +1,5 @@
 ---
-title: Coverings automobile - Espace Centre - 11/2025
+title: Coverings automobile pour Espace Centre - 11/2025
 publishDate: 2025-11-20 00:00:00
 img: /assets/bus.jpg
 img_alt: Photographie réelle d’un véhicule sur lequel sont posés des stickers
